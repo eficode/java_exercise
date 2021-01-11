@@ -1,0 +1,17 @@
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/EmployeeInformationResponse.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/PreviousJobs.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/repository/LoginRepository.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/repository/JobRepository.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/repository/EmployeeInformationRepository.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/ExperienceLevel.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/service/LoginService.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/CodereviewApplication.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/EmployeeInformation.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/controller/EmployeeInformationController.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/controller/LoginController.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/EmployeeInformationRequest.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/LoginRequest.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/service/EmployeeInformationService.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/LoginInformation.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/PersonalInformation.java
+/Users/kjokiniemi/Downloads/Archive/src/main/java/com/eficode/buggywebservice/domain/Skill.java

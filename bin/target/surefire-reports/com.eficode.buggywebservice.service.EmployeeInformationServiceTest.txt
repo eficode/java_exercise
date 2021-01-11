@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.eficode.buggywebservice.service.EmployeeInformationServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.303 sec - in com.eficode.buggywebservice.service.EmployeeInformationServiceTest

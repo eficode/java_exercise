@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: codereview
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Lassi Huhtala
+Implementation-Vendor-Id: com.eficode
+Build-Jdk: 1.8.0_261
+Implementation-URL: http://projects.spring.io/spring-boot/codereview/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

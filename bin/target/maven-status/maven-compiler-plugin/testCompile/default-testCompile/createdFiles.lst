@@ -1,0 +1,5 @@
+com/eficode/buggywebservice/repository/LoginRepositoryTest.class
+com/eficode/buggywebservice/service/EmployeeInformationServiceTest.class
+com/eficode/buggywebservice/service/LoginServiceTest.class
+com/eficode/buggywebservice/CodereviewApplicationTests.class
+com/eficode/buggywebservice/controller/EmployeeInformationControllerTest.class

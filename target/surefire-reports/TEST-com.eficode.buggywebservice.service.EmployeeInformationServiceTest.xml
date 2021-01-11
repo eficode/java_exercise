@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.eficode.buggywebservice.service.EmployeeInformationServiceTest" time="0.034" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Projects\JavaExercise\ArchiveJava-20210107T094922Z-001\ArchiveJava"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FI"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Projects\JavaExercise\ArchiveJava-20210107T094922Z-001\ArchiveJava"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LASSIH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Lassi Huhtala\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5248556634571974337.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/java32/bin/client;C:/Program Files (x86)/Java/java32/bin;C:/Program Files (x86)/Java/java32/lib/i386;C:\Program Files (x86)\Java\java32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\apache-maven\apache-maven-3.6.3\bin;C:\Users\Lassi Huhtala\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lassi Huhtala\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lassi Huhtala\AppData\Roaming\npm;C:\Users\Lassi Huhtala\eclipse\eclipse-jee-2018-09-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Lassi Huhtala"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Lassi Huhtala"/>
+    <property name="java.class.path" value="C:\Users\Lassi Huhtala\eclipse\eclipse-jee-2018-09-win32\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_261"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fi"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Projects\JavaExercise\ArchiveJava-20210107T094922Z-001\ArchiveJava\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testSearchAll" classname="com.eficode.buggywebservice.service.EmployeeInformationServiceTest" time="0.03">
+    <failure message="&#10;Expected: null&#10;     but: was &lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Expected: null
+     but: was <[]>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.eficode.buggywebservice.service.EmployeeInformationServiceTest.testSearchAll(EmployeeInformationServiceTest.java:65)
+]]></failure>
+    <system-out><![CDATA[2021-01-11 11:35:04.845  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eficode.buggywebservice.service.EmployeeInformationServiceTest], using SpringBootContextLoader
+2021-01-11 11:35:04.846  INFO 21328 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eficode.buggywebservice.service.EmployeeInformationServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-11 11:35:04.846  INFO 21328 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eficode.buggywebservice.service.EmployeeInformationServiceTest]: EmployeeInformationServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-01-11 11:35:04.850  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eficode.buggywebservice.CodereviewApplication for test class com.eficode.buggywebservice.service.EmployeeInformationServiceTest
+2021-01-11 11:35:04.880  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-01-11 11:35:04.889  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@15a3b42, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@52c9d3d0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@17207f5b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@373052b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@67e0ff3a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b2bf745, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6fe595dc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5af5d76f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3a8cea24, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1eb9a3ef, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5d318e91, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@298b64f7]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.2.RELEASE)
+
+2021-01-11 11:35:04.938  INFO 21328 --- [           main] c.e.b.s.EmployeeInformationServiceTest   : Starting EmployeeInformationServiceTest on LAPTOP-FKT8J7M0 with PID 21328 (started by Lassi Huhtala in C:\Projects\JavaExercise\ArchiveJava-20210107T094922Z-001\ArchiveJava)
+2021-01-11 11:35:04.938  INFO 21328 --- [           main] c.e.b.s.EmployeeInformationServiceTest   : No active profile set, falling back to default profiles: default
+2021-01-11 11:35:04.942  INFO 21328 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1f736d00: startup date [Mon Jan 11 11:35:04 EET 2021]; root of context hierarchy
+2021-01-11 11:35:05.450  INFO 21328 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-01-11 11:35:05.455  INFO 21328 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:25}] to localhost:27017
+2021-01-11 11:35:05.456  INFO 21328 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 3]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=787600}
+2021-01-11 11:35:05.699  INFO 21328 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1f736d00: startup date [Mon Jan 11 11:35:04 EET 2021]; root of context hierarchy
+2021-01-11 11:35:05.713  INFO 21328 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/byName],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.eficode.buggywebservice.domain.EmployeeInformationResponse> com.eficode.buggywebservice.controller.EmployeeInformationController.findByName(com.eficode.buggywebservice.domain.EmployeeInformationRequest)
+2021-01-11 11:35:05.713  INFO 21328 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.eficode.buggywebservice.domain.EmployeeInformationResponse> com.eficode.buggywebservice.controller.EmployeeInformationController.findAllName()
+2021-01-11 11:35:05.713  INFO 21328 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> com.eficode.buggywebservice.controller.LoginController.login(com.eficode.buggywebservice.domain.LoginRequest)
+2021-01-11 11:35:05.715  INFO 21328 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-01-11 11:35:05.716  INFO 21328 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-01-11 11:35:05.739  INFO 21328 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-11 11:35:05.739  INFO 21328 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-11 11:35:05.766  INFO 21328 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-01-11 11:35:05.898  INFO 21328 --- [           main] c.e.b.s.EmployeeInformationServiceTest   : Started EmployeeInformationServiceTest in 1.003 seconds (JVM running for 5.965)
+]]></system-out>
+  </testcase>
+  <testcase name="testNameSearch" classname="com.eficode.buggywebservice.service.EmployeeInformationServiceTest" time="0.004"/>
+</testsuite>

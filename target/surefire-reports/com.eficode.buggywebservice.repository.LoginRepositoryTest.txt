@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.eficode.buggywebservice.repository.LoginRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE! - in com.eficode.buggywebservice.repository.LoginRepositoryTest
+testInsertAndSelect(com.eficode.buggywebservice.repository.LoginRepositoryTest)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ";" to complete MethodDeclaration
+	loginRepository cannot be resolved
+	loginRepository cannot be resolved
+	loginRepository cannot be resolved
+
+	at com.eficode.buggywebservice.repository.LoginRepositoryTest.<init>(LoginRepositoryTest.java:25)
+

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.eficode.buggywebservice.service.EmployeeInformationServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.065 sec <<< FAILURE! - in com.eficode.buggywebservice.service.EmployeeInformationServiceTest
+testSearchAll(com.eficode.buggywebservice.service.EmployeeInformationServiceTest)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: null
+     but: was <[]>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.eficode.buggywebservice.service.EmployeeInformationServiceTest.testSearchAll(EmployeeInformationServiceTest.java:65)
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.eficode.buggywebservice.repository.LoginRepositoryTest" time="0.008" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Projects\JavaExercise\ArchiveJava-20210107T094922Z-001\ArchiveJava"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FI"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Projects\JavaExercise\ArchiveJava-20210107T094922Z-001\ArchiveJava"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LASSIH~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Lassi Huhtala\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5248556634571974337.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/java32/bin/client;C:/Program Files (x86)/Java/java32/bin;C:/Program Files (x86)/Java/java32/lib/i386;C:\Program Files (x86)\Java\java32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\apache-maven\apache-maven-3.6.3\bin;C:\Users\Lassi Huhtala\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lassi Huhtala\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lassi Huhtala\AppData\Roaming\npm;C:\Users\Lassi Huhtala\eclipse\eclipse-jee-2018-09-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Lassi Huhtala"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Lassi Huhtala"/>
+    <property name="java.class.path" value="C:\Users\Lassi Huhtala\eclipse\eclipse-jee-2018-09-win32\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_261"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fi"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_261\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_261\lib\resources.jar;C:\Program Files\Java\jre1.8.0_261\lib\rt.jar;C:\Program Files\Java\jre1.8.0_261\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_261\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_261\lib\jce.jar;C:\Program Files\Java\jre1.8.0_261\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_261\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_261\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Projects\JavaExercise\ArchiveJava-20210107T094922Z-001\ArchiveJava\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testInsertAndSelect" classname="com.eficode.buggywebservice.repository.LoginRepositoryTest" time="0.008">
+    <error message="Unresolved compilation problems: &#10;	Syntax error, insert &quot;;&quot; to complete MethodDeclaration&#10;	loginRepository cannot be resolved&#10;	loginRepository cannot be resolved&#10;	loginRepository cannot be resolved&#10;" type="java.lang.Error"><![CDATA[java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert ";" to complete MethodDeclaration
+	loginRepository cannot be resolved
+	loginRepository cannot be resolved
+	loginRepository cannot be resolved
+
+	at com.eficode.buggywebservice.repository.LoginRepositoryTest.<init>(LoginRepositoryTest.java:25)
+]]></error>
+    <system-out><![CDATA[2021-01-11 11:35:04.824  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eficode.buggywebservice.repository.LoginRepositoryTest], using SpringBootContextLoader
+2021-01-11 11:35:04.825  INFO 21328 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eficode.buggywebservice.repository.LoginRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-01-11 11:35:04.825  INFO 21328 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eficode.buggywebservice.repository.LoginRepositoryTest]: LoginRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-01-11 11:35:04.829  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eficode.buggywebservice.CodereviewApplication for test class com.eficode.buggywebservice.repository.LoginRepositoryTest
+2021-01-11 11:35:04.832  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-01-11 11:35:04.836  INFO 21328 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5fcd1f0a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7e64c1a9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7fda2001, org.springframework.test.context.support.DirtiesContextTestExecutionListener@162c1dfb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@21ae657b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@799f916e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@576b7c74, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@21de60a7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@73894c5a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7698b7a4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7a9ceddf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28157173]
+]]></system-out>
+  </testcase>
+</testsuite>
