@@ -21,5 +21,6 @@ You need:
  6. BONUS TASK: Set up MongoDB environment, add Collections there and insert some data there. 
     Run your compiled binary and use your web browser / some REST client to get data from MongoDB.
     Take a screenshot that shows the url you are using and the fetched data. Data should look something like in the picture (ExampleJson.PNG).
+    ![image](https://github.com/eficode/java_exercise/blob/main/ExampleJson.PNG)
     - Use some other employer name in your example (don't use "John Doe") and you can insert data to those fields that are null in example picture.
     - If you are not familiar to MongoDB, tell us what database(s) you have used before and how many years you have experience.  
